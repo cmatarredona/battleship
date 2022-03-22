@@ -1,0 +1,19 @@
+#tablero{
+    display: flex;
+    flex-wrap: wrap;
+    width: 820px;
+    justify-content: center;
+    align-items: center;
+}
+.casilla{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+}
+.hitted{
+    background-color: lightcoral;
+}
+.water{
+    background-color: lightblue;
+}
